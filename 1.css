@@ -1,0 +1,57 @@
+body { font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    font-size: la3ge
+    ;
+    font-weight: bold;
+    font-style: italic
+    ;
+    color: hotpink;
+    
+}
+
+#hi{
+    color: green;
+}
+
+button{
+    border: 2px dotted greenyellow;
+}
+input[type="password"]
+{width: 100%; }
+.par{ 
+    background-color: hotpink;
+    width: 100%;
+    height: 600px;
+display: flex;
+gap: 5px;
+
+justify-content:space-between;
+}
+.ch{
+    
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    
+}
+button{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+button:focus
+{
+    background-color: wheat;
+    cursor: not-allowed;
+}
+
+@media(
+min-width:1400px
+)
+{body
+{background-color:yellow;}
+}
+}
